@@ -1,0 +1,85 @@
+
+Base de datos de colaboradores segun tipo de colaborador ( que se pueda añadir o eliminar nuevos colaboradores facilmente ya que es algo que hacemos mucho )
+
+Los procesos de nuestro trabajo son los siguientes.
+
+Creamos el proyecto,
+
+De ahi pasa a Creador de Contenido, que me devuelve un documento de texto con el contenido desarrollado. Max 20 megas
+
+O a veces directamente pasa al Escritor, que me devuelve un documento de texto con el guión. Max 20 megas
+
+De ahi pasa al Locutor, que Graba el Audio y me lo envia de vuelta. Max 120 megas
+
+De ahi pasa al Editor, que monta el vídeo sobre el Audio y me lo envia de vuelta. Max 1.5 gb
+
+Aquí termina el proceso de nuestro trabajo. 
+
+
+Descripcion de la aplicacion.
+
+
+Para empezar cada trabajo nuestro (lo llamaremos Proyecto ) nos gustaria que:
+
+En una interfaz crearamos nosotros mismos el titulo del Proyecto, con algunas funciones para modificar, por ejemplo:
+
+Titulo. - Guardar una imagen o varias. - Direcciones de pago - Y espacio donde escribir anotaciones para recordar en el futuro.
+
+
+------------------------------------
+
+En otra interfaz nos gustaria que aparezcan todos Los Colaboradores, 
+
+Con opciones de ordenar por tipo de colaborador, o ver todos. Y al pinchar en cada uno de ellos podamos ver mas detalles ( modificables ) como el nombre, email,foto de email, precios y un lugar para anotaciones varias. ( Todo esto deberían ser como cajetines para rellenar por nosotros mismos. )
+
+
+------------------------------------
+
+Ahora en la interfaz principal..
+
+
+Deben aparecer los Titulos de los Proyectos en marcha, con Fechas de envio y fechas de entregas previstas, el Titulo del Proyecto en grande y Resaltado, y el nombre del colaborador que lo lleva, así como la imagen adjunta al Proyecto. ( esto es la imagen que queremos adjuntar cuando creamos el Proyecto en la interfaz de nuevo proyecto)
+
+Creo que no hacen faltas mas ''interfaces''
+
+Ahora intentamos explicar un poco como funcionamos para que entiendas por que queremos lo que queremos, y por si se nos olvida explicar algo, esto puede que resuelva tus dudas.
+
+
+
+Un mismo proyecto tiene que pasar por 4 colaboradores distintos, EN ESTE ORDEN, Creador de contenido, Escritor, Locutor, Editor.
+
+
+Cuando el editor nos ha enviado su proyecto finalizado, el trabajo ha terminado completamente, y debe desaparecer y el colaborador quedar libre para asignarle nuevo trabajo. Pero nos gustaría que quedara una especie de registro en otra interfaz ( vaya una mas ) de todos los proyectos terminados y que colaboradores lo han llevado a cabo.
+
+
+De la misma forma que en el Editor se termina el proyecto, 
+
+
+El Comienzo de cada Proyecto lo crearíamos nosotros mismos en la Interfaz de Nuevo Proyecto. Y ahi seleccionaria Creador de contenidos o Escritor, como primer colaborador. 
+
+Es entonces cuando apareceria por primera vez en la pantalla principal de la interfaz junto al resto de Proyectos en marcha.
+
+En ocasiones el proyecto empieza directamente en el colaborador ''Escritor'' Saltandonos el ''Creador de contenidos'' Por lo que nos gustaria libertad para poder empezar un proyecto en el punto que queramos.
+
+Así como borrar cualquier proyecto obsoleto o hacer modificaciones de colaboradores que hayan desistido de enviar el trabajo, y tengamos que encargarselo a otro.
+
+La aplicacion debe ser Full screen sin bordes, con todos los proyectos en marcha a la vista, si puede ser sin barra de desplazamiento ( que se hagan ams pequeños si hace falta) Para tenerlo todo siempre a primera vista.
+
+
+Que se vean en todo momento los datos mas importantes como estado de cada Proyecto, y el colaborador que lo tiene en ese momento, la imagen y las alertas con colores, ticks o cualquier sistema. 
+
+
+
+Mas datos.
+
+
+Mediante avisos alertas y colores, necesitamos tener controlado en la interfaz principal, la fecha de entrega del trabajo. Es decir, alertas cuando se acerque la fecha de entrega de un trabajo y cuando se retrase la entrega.
+
+Cada vez que se asigne un proyecto, o haya terminado su trabajo un colaborador, nos gustaría que marcandolo como terminado (en ese proceso) o Recibido, nos de la opcion de elegir siguiente colaborador, siempre siguiendo el orden, Creador de contenidos, Escritor, Locutor, Editor.
+
+Me explico,
+Cuando un proyecto por ejemplo ha pasado por guionista, y ha sido recibido el guión, tengo que mandarselo al siguiente tipo de colaborador (en este caso Locutor)
+Por ello, no debe dejarme elegir colaboradores que no sean locutores.  De la misma manera, el proyecto como guión recibido, debe no estar disponible para enviar a editores SI YA HA SIDO ENVIADO A UNO, de la misma manera, si el colaborador no me devuelve el guión locutado, debe aparecer de nuevo para enviar a otro Locutor, tras la pertinente ALARMA ''AVISO'' de que no ha entregado la locucion dicho colaborador en la fecha estipulada.
+( de esta manera no se pierden trabajos en el olvido ni tampoco se encargan trabajos doblemente por equivocacion )
+
+
