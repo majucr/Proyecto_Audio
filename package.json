@@ -1,0 +1,22 @@
+{
+  "name": "ProyectoAudiovisual",
+  "version": "1.0.0",
+  "description": "Desarrollo de sistema de gestion de proyectos audiovisuales",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "audio",
+    "visual",
+    "editor",
+    "escritor",
+    "productor"
+  ],
+  "author": "Majucr",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
