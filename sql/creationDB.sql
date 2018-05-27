@@ -1,61 +1,82 @@
 CREATE DATABASE audioVisual;
 
-USE AudioVisual;
+USE audioVisual;
 
 CREATE TABLE project(
 
-  idProject AUTO_INCREMENT PRIMARY KEY;;
-  title VARCHAR(50) NOT NULL UNIQUE;
-  startDate DATE NOT NULL;
-  # Definir formato de fechas
-  endDate DATE NOT NULL;
-  # Definir formato de fechas
-  contentCreatorDocument VARCHAR(50);
-  writerDocument VARCHAR(50);
-  announcerAudio VARCHAR(50);
-  editorVideo VARCHAR(50);
-  stageCC TINYINT DEFAULT 0;
-  stageWD TINYINT DEFAULT 0;
-  stageAA TINYINT DEFAULT 0;
-  stageEV TINYINT DEFAULT 0;
-  #idColaborador
+  idProject INT AUTO_INCREMENT,
+  title VARCHAR(50) NOT NULL UNIQUE,
+  startDate DATE NOT NULL,
+  endDate DATE NOT NULL,
+  contentCreatorDocument VARCHAR(50),
+  writerDocument VARCHAR(50),
+  announcerAudio VARCHAR(50),
+  editorVideo VARCHAR(50),
+  stageCC TINYINT DEFAULT 0,
+  stageWD TINYINT DEFAULT 0,
+  stageAA TINYINT DEFAULT 0,
+  stageEV TINYINT DEFAULT 0,
 
-)
+  PRIMARY KEY (idProject)
+
+);
 
 CREATE TABLE imagesProject(
-  id AUTO_INCREMENT PRIMARY KEY;
-  idProject  FOREIGN KEY REFERENCES (project.idProject);
-  imageName VARCHAR(50);
 
-)
+  id INT AUTO_INCREMENT,
+  idProject INT,
+  imageName VARCHAR(50) NOT NULL,
+
+  PRIMARY KEY (id),
+  FOREIGN KEY (idProject) REFERENCES project(idProject)
+
+);
 
 CREATE TABLE annotationsProject(
-  id AUTO_INCREMENT PRIMARY KEY;
-  idProject FOREIGN KEY REFERENCES (project.idProject);
-  annotation VARCHAR(400);
-)
+
+  id INT AUTO_INCREMENT,
+  idProject INT,
+  annotation VARCHAR(400),
+
+  PRIMARY KEY (id),
+  FOREIGN KEY (idProject) REFERENCES project(idProject)
+);
 
 CREATE TABLE collaborator(
-  idCollaborator AUTO_INCREMENT PRIMARY KEY;
-  firstName VARCHAR(25) NOT NULL;
-  secondName VARCHAR(25) NULL;
-  firstLastName VARCHAR(25) NOT NULL;
-  secondLastName VARCHAR(25) NOT NULL;
-  email VARCHAR(255) NOT NULL;
-  price FLOAT DEFAULT 0
 
-)
+  idCollaborator INT AUTO_INCREMENT,
+  userName VARCHAR(25) NOT NULL UNIQUE,
+  firstName VARCHAR(25),
+  secondName VARCHAR(25),
+  firstLastName VARCHAR(25),
+  secondLastName VARCHAR(25),
+  email VARCHAR(255),
+  price FLOAT DEFAULT 0,
+
+  PRIMARY KEY (idCollaborator)
+
+);
 
 CREATE TABLE assignedProject(
-  idCollaborator FOREIGN KEY REFERENCES (collaborator.idCollaborator);
-  idProject FOREIGN KEY REFERENCES (project.idProject);
-  currentlyDevelopment TINYINT(1) DEFAULT 0;
-  PRIMARY KEY (idCollaborator, idProject)
 
-)
+  idCollaborator INT,
+  idProject INT,
+  currentlyDevelopment TINYINT(1) DEFAULT 0,
+  stage CHAR(1) NOT NULL,
+
+  PRIMARY KEY (idCollaborator, idProject),
+  FOREIGN KEY (idCollaborator) REFERENCES collaborator(idCollaborator),
+  FOREIGN KEY (idProject) REFERENCES project(idProject)
+
+);
 
 CREATE TABLE annotationsCollaborator(
-  id AUTO_INCREMENT PRIMARY KEY;
-  idCollaborator FOREIGN KEY REFERENCES (collaborator.idCollaborator);
-  annotation VARCHAR(400);
-)
+
+  id INT AUTO_INCREMENT,
+  idCollaborator INT,
+  annotation VARCHAR(400),
+
+  PRIMARY KEY (id),
+  FOREIGN KEY (idCollaborator) REFERENCES collaborator(idCollaborator)
+
+);
