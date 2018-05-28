@@ -1,10 +1,14 @@
 const electron = require('electron')
 const path = require('path')
 const url = require('url')
-const mysql = require('mysql')
-const {app, BrowserWindow} = electron
+//const mysql = require('mysql')
+// Adicion de librerias esenciales
 
-interfaces = 'interfaces/'
+const {app, BrowserWindow} = electron
+// Creacion de objetos
+
+const interfaces = 'interfaces/'
+// Definicion de variables de directorios
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -12,14 +16,32 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+    show: false,
+    frame: false,
+    resizable: true,
+    backgroundColor: '#2e2c29',
+    fullscreen: true,
+    title: 'Visual',
+    opacity: 0.5
+  })
+
+  mainWindow.once('ready-to-show', () =>{
+    mainWindow.show()
+  })
 
   // and load the index.html of the app.
-  mainWindow.loadURL(url.format({
+  mainWindow.loadURL(
+    url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
     slashes: true
-  }))
+    })
+  )
+
+
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -36,7 +58,14 @@ function createWindow () {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on('ready', createWindow)
+app.on('ready', function (){
+
+  if(false){
+      //Si es la primera vez, configura la BD y demas cosas
+  }else{
+    createWindow()
+  }
+})
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
@@ -45,6 +74,7 @@ app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') {
     app.quit()
   }
+  // colocar pantalla de despedida, cerrar base de datos y salir
 })
 
 app.on('activate', function () {
@@ -54,6 +84,3 @@ app.on('activate', function () {
     createWindow()
   }
 })
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
