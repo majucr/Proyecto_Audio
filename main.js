@@ -1,6 +1,8 @@
+const controller = require('controller')
 const electron = require('electron')
 const path = require('path')
 const url = require('url')
+
 //const mysql = require('mysql')
 // Adicion de librerias esenciales
 
@@ -11,10 +13,12 @@ const {app, BrowserWindow, ipcMain} = electron
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-function createWindow () {
+function createWindow ()
+{
   // Create the browser window.
   // Hay que agregar botones de minimizar, maximizar y cerrar
-  mainWindow = new BrowserWindow({
+  mainWindow = new BrowserWindow(
+  {
     width: 800,
     height: 600,
     show: false,
@@ -24,6 +28,7 @@ function createWindow () {
     title: 'Visual',
     opacity: 0.5
   })
+}
 
 const interfaces = 'interfaces/'
 // Definicion de variables de directorios
@@ -53,7 +58,7 @@ mainWindow.once('ready-to-show', () =>{
   // and load the index.html of the app.
 mainWindow.loadURL(
     url.format({
-    pathname: path.join(__dirname, 'View/index.html'),
+    pathname: path.join(__dirname, 'View/login.html'),
     protocol: 'file:',
     slashes: true
     })
