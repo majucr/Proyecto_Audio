@@ -1,0 +1,170 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+header{
+
+	width: 90%;
+	margin: auto;
+}
+header img{
+	
+	width: 60px;
+	height: 60px;
+
+
+}
+header .Usuario{
+
+float: left;
+
+}
+
+header .menu img{
+	
+	width: 30px;
+	height: 30px;
+
+}
+header .menu {
+	
+	margin: 4% 0% 5% 85%;
+	
+
+}
+header .Menu a{
+	text-align: center;
+	
+	padding: 5px 5px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 0px 0px;	
+	color: white;
+	
+}
+
+.botones
+{
+
+	margin: -3% 0% 0% 90%;
+	background-image:white;
+	position: absolute;
+	min-width: 20px;
+	min-height: 20px;
+	
+}
+.botones img
+{
+	width: 25px; 
+	height: 25px;
+}
+
+
+body{
+color: white;
+font-family: 'arial';
+background-image: linear-gradient(to right top, #969696, #7f747f, #70525e, #5f3235, #441703);
+
+}
+
+
+.main{
+
+	
+	margin: auto;
+	width: 70%;
+	min-width: 820px;
+	height: 40%;
+	min-height: 500px;
+
+}
+
+
+.Contenedor{
+	margin: auto;
+	height: 1000px;
+
+
+}
+.main{
+
+	margin: 70px auto;
+	width: 70%;
+	min-width: 800px;
+	height: 70%;
+	min-height: 400px;
+	
+
+
+}
+.main img{
+	margin:  20px auto 0px;
+	display: block;
+	height: 70px;
+	width: 70px;
+
+
+}
+.main .BotonGrande{
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	width: 40%;
+	height: 100%;
+	float: left;
+	
+}
+.main .Boton,.main .Boton1{
+	background: rgba(127,127,127,0.4);
+
+	text-align: center;
+	width: 49%;
+	height: 30%;
+	float: left;
+	margin: 0% 0% 1% 1%;
+	
+}
+.main .Boton2{
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	width: 99%;
+	height: 36%;
+	float: left;
+	margin: 0% 0% 0% 1%
+	
+}
+
+
+
+
+
+
+.main .Boton a{
+	padding: 0% 48% 28% 49%;
+
+}
+
+
+ .main .Boton p {
+	margin: 7% 0%  0%;
+	font-size: 30px;
+	
+
+}
+ .main .Boton1 p {
+	margin: 10% 0%  0%;
+	font-size: 30px;
+	
+
+}
+
+.main .Boton2 p {
+	margin: 6% 0% 0% 0%;
+	font-size: 30px;
+	
+
+}
+
+

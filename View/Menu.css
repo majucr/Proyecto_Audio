@@ -1,0 +1,164 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+header{
+
+	width: 90%;
+	margin: auto;
+}
+header img{
+	
+	width: 60px;
+	height: 60px;
+
+
+}
+header .Usuario{
+
+float: left;
+
+}
+
+header .menu img{
+	
+	width: 30px;
+	height: 30px;
+
+}
+header .menu {
+	
+	margin: 4% 0% 5% 85%;
+	
+
+}
+header .Menu a{
+	text-align: center;
+	
+	padding: 5px 5px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 0px 0px;	
+	color: white;
+	
+}
+
+.botones
+{
+
+	margin: -3% 0% 0% 90%;
+	background-image:white;
+	position: absolute;
+	min-width: 20px;
+	min-height: 20px;
+	
+}
+.botones img
+{
+	width: 25px; 
+	height: 25px;
+}
+
+
+
+
+body{
+color: white;
+font-family: 'arial';
+background-image: linear-gradient(to right top, #969696, #7f747f, #70525e, #5f3235, #441703);
+
+}
+
+
+
+.main{
+
+	
+	margin: auto;
+	width: 70%;
+	min-width: 820px;
+	height: 40%;
+	min-height: 500px;
+
+}
+
+
+.tipo1,.tipo2,.tipo3,.tipo4,.tipo5{
+
+	width: 18%;
+	float: left;
+	margin: 0px 0px 10px 10px;
+
+
+}
+.tipo1 p ,.tipo2 p ,.tipo3 p,.tipo4 p ,.tipo5 p {
+
+	font-size: 15px;
+	margin-top: 0.5px;
+	
+
+}
+.Proyecto{
+
+	margin:2% 0% 1% 0.5%;
+	border: 2px solid rgba(255,255,255,0.4);
+	
+	min-width: 150px;
+	position: relative;
+	float: left;
+	height: 45%;
+
+}
+
+.Proyecto img{
+border-radius: 15px;
+	width:100%;
+	height:50%; 
+	opacity: 0.7;
+	margin: 0px 0px 5px 0px;
+
+}
+.Proyecto p{
+	margin-right: 1px 0px 0px 10px;
+
+}
+
+.Color1{
+	background:rgba(0,64,128,0.5);
+	border-radius: 15px;
+	width:100%;
+	height:6.5%; 
+}
+.Color2{
+background:rgba(255,255,255,0.8);
+	border-radius: 15px;
+	width:100%;
+	height:6.5%; 
+}
+.Color3{
+background:rgba(255,0,0,0.6);
+	border-radius: 15px;
+	width:100%;
+	height:6.5%; 
+}
+.Color4{
+background:rgba(255,255,176,0.8);
+	border-radius: 15px;
+	width:100%;
+	height:6.5%; 
+}
+.Color5{
+background:rgba(157,206,206,0.8);
+	border-radius: 15px;
+	width:100%;
+	height:6.5%; 
+}
+.Proyecto a{
+	padding: 100% 100%;
+	position: fixed;
+}
+
+

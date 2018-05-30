@@ -1,0 +1,151 @@
+*{
+
+	padding:0px;
+	margin:10px;
+	
+	
+
+}
+
+.logotipo
+{
+	
+	margin:1px;
+	padding:10px;
+	color:rgba(255,255, 255,0.7);
+	font-size:40px;
+	height:18%;
+}
+h1:hover
+{
+	color: white;
+	
+
+}
+body
+{
+	
+	color:white;
+	background:rgba(242,242,242)
+
+}
+
+header,.main,footer
+{
+	width:100%;
+	margin: 10px auto;
+	max-width:1000px;
+	min-width:1000px;
+		
+}
+
+nav 
+{
+
+	background:rgba(0,0,0,0.8);
+
+}
+header nav
+{
+
+	overflow:hidden;
+	position:absolute;
+}
+header nav ul
+{
+	/*para que el menu no se mueva*/
+	list-style:none;
+	max-width:1000px;
+	min-width:1000px;
+}
+header nav ul li
+{
+	float:left;
+	
+
+}
+header nav ul li a
+{
+	padding: 10px 95.4px;
+	text-decoration:none;
+	display:block;
+	color:white;
+	
+	
+}
+header nav ul li a:hover
+{
+	
+	background:rgba(255,255, 255,0.7);
+	color:white;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	z-index:border-box;
+	position:relative;
+	
+	
+}
+.main .articulos,aside,footer
+{
+	position:relative;
+	top:50px;
+	text-align:center;
+
+}
+.main .articulos
+{
+	text-align:center;
+	width:67%;
+	float:left;
+	margin-right:1%;
+
+}
+aside
+{
+	
+	background:rgba(0,0,0,0.8);
+	width:31%;
+	box-sizing:borde-box;
+	float:left;
+	height:85%;
+	max-height:100px;
+	min-height:450px;
+	padding: 5px 5px;
+	
+}
+
+.main .articulos article
+{
+	padding:10px;
+	margin-bottom:20px;
+	background:grey;
+	height:20%;
+	max-height:100px;
+	min-height:120px;
+}
+footer
+{
+	background:rgba(0,0,0,0.8);
+	clear:both;
+	text-align:center;
+
+	
+
+}
+footer a
+{
+	color:white;
+	text-decoration:none;
+	display:block;
+	padding:10px 2px 2px 2px; 
+	max-height:10px;
+}
+header
+{
+	background:rgba(0,0,0,0.8);
+}
+
+

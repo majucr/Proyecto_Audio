@@ -1,0 +1,189 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+header .Menu a{
+	text-align: center;
+	
+	padding: 5px 5px;
+	border: 2px solid white;	
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 0px 0px;	
+	
+}
+
+body{
+		color: white;
+
+	font-family: 'arial';
+	background-image: linear-gradient(to right top, #969696, #7f747f, #70525e, #5f3235, #441703);
+}
+
+
+.Contenedor{
+	margin: auto;
+	height: 1000px;
+
+}
+.main{
+
+	margin: auto;
+	width: 70%;
+border: 2px solid white;
+	min-width: 700px;
+	height: 40%;
+	min-height: 300px;
+
+}
+header{
+
+	width: 90%;
+	margin: auto;
+}
+header img{
+	
+	width: 60px;
+	height: 60px;
+
+
+}
+header .Usuario{
+
+float: left;
+
+}
+
+header .menu img{
+	
+	width: 30px;
+	height: 30px;
+
+}
+header .menu {
+	
+	margin: 4% 0% 5% 85%;
+	
+
+}
+header .Menu a{
+	text-align: center;
+	
+	padding: 5px 5px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 0px 0px;	
+	color: white;
+	
+}
+
+.botones
+{
+
+	margin: -3% 0% 0% 86%;
+	background-image:white;
+	position: absolute;
+	min-width: 20px;
+	min-height: 20px;
+	
+}
+.botones img
+{
+	width: 25px; 
+	height: 25px;
+}
+
+input{
+	
+
+
+}
+
+h1{
+	
+	text-align: center;	 
+
+}
+
+.Buscar 
+{
+	margin: 10px 1px 2px 38%;
+	display: block;
+	float: left;	
+
+}
+
+.boton 
+{
+	display: block;
+	margin: 10px 0px;
+
+}
+
+.Editar a{
+	text-align: center;
+	padding: 5px 5px;
+	border: 2px solid white;
+	width: 50px;
+	border-radius: 15px;
+	text-decoration: none;	
+	margin: 0px 0px 0px 0px;
+	color: black;
+	
+}
+.Boton a{
+	
+	border: 2px solid white;
+	border-radius: 15px;
+	text-decoration: none;	
+	margin: 0px 0px 0px 0px;
+	width: 100px;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 0px 0px 10px;
+	color: white;
+}
+
+.main .colarborador img{
+	width: 100px;
+	height: 100px;
+	margin:auto;
+	display: block;
+	
+}
+.main .colarborador a{
+	text-align: center;
+	display: block;
+	text-align: center;	
+	text-decoration: none;
+	color: white;
+	
+}
+ .colarborador {
+	width: 150px;
+	float: left;
+	padding: 15px 0px;
+}
+ .Editar  {
+	width: 200px;
+	margin: 30px auto;
+	text-align: center;
+	display: block;
+	color: white;	
+}
+ .Editar a  {
+	
+	color: white;	
+}
+
+.boton1{
+
+	margin:0px 0px 0px 20px;
+
+}
+

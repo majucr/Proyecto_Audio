@@ -1,0 +1,163 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+header{
+
+	width: 90%;
+	margin: auto;
+}
+header img{
+	
+	width: 60px;
+	height: 60px;
+
+
+}
+header .Usuario{
+
+float: left;
+
+}
+
+header .menu img{
+	
+	width: 30px;
+	height: 30px;
+
+}
+header .menu {
+	
+	margin: 4% 0% 5% 85%;
+	
+
+}
+header .Menu a{
+	text-align: center;
+	
+	padding: 5px 5px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 0px 0px;	
+	color: white;
+	
+}
+
+.botones
+{
+
+	margin: 0% 0% 0% 90%;
+	background-image:white;
+	position: absolute;
+	min-width: 20px;
+	min-height: 20px;
+	
+}
+.botones img
+{
+	width: 25px; 
+	height: 25px;
+}
+
+body{
+
+	font-family: 'arial';
+
+}
+
+.Contenedor{
+	margin: auto;
+	height: 1000px;
+
+}
+.main{
+	margin: auto;
+	width: 30%;
+	background: grey;
+	min-width: 400px;
+	height: 400px;
+
+}
+
+
+.main p{
+	margin:5px 0px 0px 50px;
+	float: left;	
+
+}
+.main input,.main select
+{
+	margin:5px 0px 5px 5px;
+	float: left;
+	
+
+}
+
+.main a{
+	display: block;
+	margin:10px 50px;
+	color: white;
+
+
+}
+.Contenedor {
+	margin:5% 0%;
+
+
+}
+.Boton {
+	margin:0% 0% 0% 70%;
+}
+.Editar {
+	margin:0% 0% 10% 50%;
+	padding: 5px 0px;
+}
+.main .imagen img{
+	width: 100px;
+	height: 100px;
+	
+}
+.main .imagen {
+	margin: 0% 0% 5% 35%;
+
+	
+}
+.main .imagen a{
+	margin: 0% 0% 0% 7%;
+
+	
+}
+.main .mas a{
+	text-align: center;
+	padding: 0px 0px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;	
+	margin: 50px 0px 15px -180px;
+	color: black;
+}
+
+textarea 
+{
+	margin: 10px 0px 0px 50px;
+	
+}
+
+	
+
+
+
+
+

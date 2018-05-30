@@ -1,0 +1,218 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+header{
+
+	width: 90%;
+	margin: auto;
+}
+header img{
+	
+	width: 60px;
+	height: 60px;
+
+
+}
+header .Usuario{
+
+float: left;
+
+}
+
+header .menu img{
+	
+	width: 30px;
+	height: 30px;
+
+}
+header .menu {
+	
+	margin: 4% 0% 5% 85%;
+	
+
+}
+header .Menu a{
+	text-align: center;
+	
+	padding: 5px 5px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 0px 0px;	
+	color: white;
+	
+}
+.main p{
+	margin:15px 0px 0px 2px;
+	float: left;	
+
+}
+.main input,.main select
+{
+	margin:15px 0px;
+	
+
+}
+.botones
+{
+
+	margin: -3% 0% 0% 86%;
+	background-image:white;
+	position: absolute;
+	min-width: 20px;
+	min-height: 20px;
+	
+}
+.botones img
+{
+	width: 25px; 
+	height: 25px;
+}
+
+
+body{
+
+	font-family: 'arial';
+	background-image: linear-gradient(to right top, #969696, #7f747f, #70525e, #5f3235, #441703);
+}
+
+.Contenedor{
+	margin: auto;
+	height: 1000px;
+
+
+}
+.main{
+	margin: auto;
+	width: 30%;
+	color: white;
+	min-width: 400px;
+	height:55%;
+	min-height: 650px;
+border: 2px solid white;
+}
+
+.main p{
+	
+	margin: 0px 0px 0px 0px;
+
+}
+.con{
+
+	width: 70%;
+	margin: 10px auto;
+
+}
+.main a{
+	display: block;
+	margin:10px 50px;
+	color: white;
+
+
+}
+.Contenedor {
+	margin:5% 0%;
+
+
+}
+.Boton {
+	margin:0% 0% 0% 70%;
+}
+.Editar {
+	margin:0% 0% 5% 50%;
+	padding: 0px 0px;
+}
+.main .imagen img{
+	width: 150px;
+	height: 150px;
+	border-radius:75px;
+	display: block;
+	margin: auto;
+	opacity: 0.8;
+}
+
+.main .imagen a{
+	display: block;
+	text-align: center;
+
+	
+}
+.main .mas a{
+	text-align: center;
+	padding: 0px 0px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;	
+	
+}
+.main {
+
+	
+	border-radius: 15px;
+}
+
+
+ 
+ .con p,.con input{
+	margin: 20px 0px 0px 0px;
+	
+
+}
+.main .mas a,.main .eliminar a{
+	text-align: center;
+	padding: 0px 0px;
+	border: 2px solid white;
+	width: 180px;
+	border-radius: 15px;
+	text-decoration: none;	
+	margin: 10px auto;
+	text-align: center;
+	display: block;
+}
+.main .mas a{
+
+margin-top: 30px;
+
+
+}
+ .con input{
+	width: 40%;
+	
+
+}
+
+
+
+.chat h4{
+	font-size: 20px;
+	background: rgba(255,255,255,0.2);
+
+}
+.chat{
+	color: whiter;
+	text-align: center;
+	margin:0% 0% 0% 80%;  
+	position: fixed;
+	width: 20%;
+	height: 70%;
+	z-index: 1;
+	border: 2px solid white;
+
+}
+.chat p{
+
+	
+	margin:5% 0% 0% 0%;  
+
+
+}
+
+
+
+
